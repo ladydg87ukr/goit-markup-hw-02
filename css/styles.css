@@ -44,16 +44,56 @@ body {
 .tel-header {color:#757575;}
 
 
+/* Герой */
+
+.hero {background-color: #2F303A;}
+
+.hero-title, .hero-btn {color: #FFFFFF;}
+
+.hero-btn { background-color: #2196F3;}
 
 
+/* Основной блок */
+
+h2 
+    {
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+
+h3 
+
+    {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1,14;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }    
 
 
+p 
+    {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+.uppercase {text-transform: uppercase;}
 
 
 .list 
     {
         list-style: none;
     }
+
 
 
 
@@ -69,4 +109,11 @@ body {
     color:rgba(255, 255, 255, 0.6);
     }
 
+    
+/* Портфолио */
 
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
