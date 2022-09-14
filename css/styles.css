@@ -6,24 +6,34 @@ body {
 
 }
 
+/* Логотип */
+
 .logo {color:#000000;}
 
 .logo-accent {color:#2196F3;}
 
-.site-nav a:hover,
-.site-nav a:focus
+.logo.link {text-decoration: none;}
+
+/* Навігація */
+
+.site-nav .link:hover,
+.site-nav .link:focus
     {
         color: #2196F3;
     }
 
-a
+.site-nav .link {text-decoration: none;}
+
+
+/* Контактная информация */
+
+.contacts .list,
+.contacts .link
     {
-    text-decoration: none;
-    
+        text-decoration: none;
     }
 
-
-ul 
+.list 
     {
         list-style: none;
     }
