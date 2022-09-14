@@ -8,6 +8,7 @@ body {
 
 /* Логотип */
 
+
 .logo {color:#000000;}
 
 .logo-accent {color:#2196F3;}
@@ -16,16 +17,22 @@ body {
 
 /* Навігація */
 
+
 .site-nav .link:hover,
 .site-nav .link:focus
     {
         color: #2196F3;
     }
 
-.site-nav .link {text-decoration: none;}
+.site-nav .link 
+    {
+        text-decoration: none;
+        color: #212121;
+    }
 
 
 /* Контактная информация */
+
 
 .contacts .list,
 .contacts .link
@@ -33,7 +40,33 @@ body {
         text-decoration: none;
     }
 
+.email-header {color: #2196F3;}
+.tel-header {color:#757575;}
+
+
+
+
+
+
+
+
 .list 
     {
         list-style: none;
     }
+
+
+
+/* Футер*/
+
+.footer {background-color: #2F303A;}
+
+.address, .logo-footer {color: #FFFFFF;}
+
+.email-footer,
+.tel-footer 
+    {
+    color:rgba(255, 255, 255, 0.6);
+    }
+
+
