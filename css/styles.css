@@ -1,0 +1,29 @@
+body {
+
+    font-family: "Roboto", sans-serif;
+    background-color: #F5F5F5;;
+    color: #212121;
+
+}
+
+.logo {color:#000000;}
+
+.logo-accent {color:#2196F3;}
+
+.site-nav a:hover,
+.site-nav a:focus
+    {
+        color: #2196F3;
+    }
+
+a
+    {
+    text-decoration: none;
+    
+    }
+
+
+ul 
+    {
+        list-style: none;
+    }
