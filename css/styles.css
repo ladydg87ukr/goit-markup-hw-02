@@ -121,6 +121,7 @@ p {
     {
         display: inline block;
         border: hidden;
+        cursor: pointer;
     }
 
 .button.primary 
@@ -195,4 +196,3 @@ p {
 
     
 /* Портфолио */
-
