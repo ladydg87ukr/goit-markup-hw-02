@@ -20,15 +20,14 @@ h2 {
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 1, 17;
-    text-align: center;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
 h3 {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1, 14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
 }
 
@@ -36,7 +35,7 @@ h3 {
 p {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--grey-text-color);
 }
@@ -44,14 +43,31 @@ p {
 /* Логотип */
 
 
-.logo {color: var(--logo-color);}
+.logo 
+    {
+        color: var(--logo-color);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    }
 
-.logo-accent {color: var(--accent-text-color);}
+.logo-accent 
+    {
+        color: var(--accent-text-color);
+    }
 
 .logo.link {text-decoration: none;}
 
 /* Навігація */
 
+.site-nav
+    {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    }
 
 .site-nav .link:hover,
 .site-nav .link:focus
@@ -68,6 +84,13 @@ p {
 
 /* Контактная информация */
 
+.contacts 
+    {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    }
 
 .contacts .list,
 .contacts .link
@@ -81,17 +104,59 @@ p {
 
 /* Герой */
 
-.hero {background-color: var(--secondary-background-color);}
+.hero 
+    {
+        background-color: var(--secondary-background-color);
+    }
 
-.hero-title {color: var(--light-text-color);}
+.hero-title 
+    {
+        color: var(--light-text-color);
+    }
 
 
 /* Основной блок */
 
 .button 
     {
+        display: inline block;
+        border: hidden;
+    }
+
+.button.primary 
+    {
         color: var(--light-text-color);
         background-color: var(--accent-text-color);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.875;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
+
+.button.primary:hover,
+.button.primary:focus 
+    {
+        color: var(--light-text-color);
+        background-color: var(--accent-text-color);
+    }
+
+.button.secondary 
+    {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.625;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+.button.secondary:hover,
+.button.secondary:focus 
+    {
+        background-color: var(--accent-text-color);
+        color: var(--light-text-color);
     }
 
 .list 
@@ -106,19 +171,28 @@ p {
 
 .footer {background-color: var(--secondary-background-color);}
 
-.address, .logo-footer {color: var(--light-text-color);}
+.address 
+    {
+        color: var(--light-text-color);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    }
+
+.logo-footer {color: var(--light-text-color);}
 
 .email-footer,
 .tel-footer 
     {
-    color:rgba(255, 255, 255, 0.6);
+        color:rgba(255, 255, 255, 0.6);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
     }
 
     
 /* Портфолио */
 
-.filter-btn:hover,
-.filter-btn:focus {
-    background-color: var(--accent-text-color);
-    color: var(--light-text-color);
-}
