@@ -6,7 +6,6 @@
     --grey-text-color:#757575;
     --primary-background-color:#FFFFFF;
     --secondary-background-color:#2F303A;
-    --section-features-background-color: #F5F5F5;
     --section-ourteam-background-color: #F5F4FA;
 }
 
@@ -168,7 +167,7 @@ body {
 .features,
 .ourworks
     {
-        background-color: var(--section-features-background-color);
+        background-color: var(--primary-background-color);
     }
 
 /* Секція "Наша команда" */
