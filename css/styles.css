@@ -4,8 +4,10 @@
     --accent-text-color: #2196F3;
     --light-text-color:#FFFFFF;
     --grey-text-color:#757575;
-    --primary-background-color:#F5F5F5;
+    --primary-background-color:#FFFFFF;
     --secondary-background-color:#2F303A;
+    --section-features-background-color: #F5F5F5;
+    --section-ourteam-background-color: #F5F4FA;
 }
 
 body {
@@ -18,9 +20,9 @@ body {
 
 /* Заголовки */
 
-.features,
-.ourworks,
-.ourteam
+.features-maintext,
+.ourworks-maintext,
+.ourteam-maintext
     {
         font-weight: 700;
         font-size: 36px;
@@ -159,6 +161,22 @@ body {
 
 
 /* Основной блок */
+
+/* Секція "Особливості" i "Чим ми займаємося" */
+
+
+.features,
+.ourworks
+    {
+        background-color: var(--section-features-background-color);
+    }
+
+/* Секція "Наша команда" */
+
+.ourteam
+    {
+        background-color: var(--section-ourteam-background-color);
+    }
 
 .button 
     {
