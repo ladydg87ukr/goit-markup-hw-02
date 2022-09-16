@@ -106,6 +106,10 @@ body {
         color: var(--primary-text-color);
     }
 
+.site-nav .link.current
+    {
+        color: var(--accent-text-color);
+    }
 
 /* Контактная информация */
 
