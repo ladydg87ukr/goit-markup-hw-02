@@ -62,8 +62,6 @@ p {
 /* «B13» Всі необхідні шрифти за макетом та їх варіації (вага і накреслення) підключені з сервісу
 Google Fonts одним посиланням. Необхідна вагу для Raleway – 700,а для Roboto – 400, 500, 700 і 900. */
 
-/* «С5» Текст контактів в хедері і футері змінює колір при ховері і фокусі. */
-
 /* «С15» Вага шрифту (властивість font-weight) явно вказана тільки,
 якщо значення в макеті відрізняється від стандартного для цього елемента в браузері. */
 
@@ -131,8 +129,23 @@ Google Fonts одним посиланням. Необхідна вагу для
         text-decoration: none;
     }
 
-.email-header {color: var(--accent-text-color);}
-.tel-header {color: var(--grey-text-color);}
+.email-header, 
+.tel-header 
+    {
+        color: var(--grey-text-color);
+    }
+
+.email-header:hover,
+.email-header:focus
+    { 
+        color: var(--accent-text-color);
+    }
+
+.tel-header:hover,
+.tel-header:focus 
+    {
+        color: var(--accent-text-color);
+    }
 
 
 /* Герой */
@@ -210,7 +223,6 @@ Google Fonts одним посиланням. Необхідна вагу для
     {
         color: var(--light-text-color);
         font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -222,10 +234,20 @@ Google Fonts одним посиланням. Необхідна вагу для
 .tel-footer 
     {
         color:rgba(255, 255, 255, 0.6);
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
     }
 
 
+.email-footer:hover,
+.email-footer:focus
+    {
+            color: var(--accent-text-color);
+    }
+
+.tel-footer:hover,
+.tel-footer:focus 
+    {
+        color: var(--accent-text-color);
+    }
