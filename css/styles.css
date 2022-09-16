@@ -16,29 +16,34 @@ body {
 
 }
 
-h2 {
+/* Заголовки */
 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-}
+.features,
+.ourworks,
+.ourteam
+    {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+    }
 
-h3 {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-}
+.maintextheader
+    {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+    }
 
 
-p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--grey-text-color);
-}
+.maintext
+    {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--grey-text-color);
+    }
 
 
 /* Скрыть заголовки */
