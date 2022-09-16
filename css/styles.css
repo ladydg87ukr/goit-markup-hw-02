@@ -40,6 +40,39 @@ p {
     color: var(--grey-text-color);
 }
 
+
+/* Скрыть заголовки */
+    
+.hidden {
+    
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+    
+}
+
+
+/* «B13» Всі необхідні шрифти за макетом та їх варіації (вага і накреслення) підключені з сервісу
+Google Fonts одним посиланням. Необхідна вагу для Raleway – 700,а для Roboto – 400, 500, 700 і 900. */
+
+/* «С5» Текст контактів в хедері і футері змінює колір при ховері і фокусі. */
+
+/* «С15» Вага шрифту (властивість font-weight) явно вказана тільки,
+якщо значення в макеті відрізняється від стандартного для цього елемента в браузері. */
+
+/* «С17» У стилях не повторюються значення властивостей,
+які задані браузером за замовчуванням. Наприклад,
+посиланням не потрібно вказувати cursor: pointer,
+а абзацам font-style: normal або font-weight: 400. */
+
+
 /* Логотип */
 
 
@@ -196,19 +229,3 @@ p {
     }
 
 
-    /* Скрыть заголовки */
-
-.hidden {
-
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-
-}
