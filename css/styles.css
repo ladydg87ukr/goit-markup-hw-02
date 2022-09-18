@@ -25,21 +25,48 @@ body { font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
 }
 
-.maintextheader {
+.maintextheader-features {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+}
+
+.maintextheader-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
 
-.maintext {
+.maintextheader-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+} 
+
+.maintext-features {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--grey-text-color);
 }
 
+.maintext-team {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--grey-text-color);
+}
+
+.maintext-portfolio {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--grey-text-color);
+}
 
 /* Скрыть заголовки */
     
@@ -222,6 +249,7 @@ body { font-family: "Roboto", sans-serif;
 .email-footer,
 .tel-footer {
     color:rgba(255, 255, 255, 0.6);
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
