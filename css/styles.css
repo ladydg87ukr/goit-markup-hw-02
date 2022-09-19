@@ -21,21 +21,21 @@ body { font-family: "Roboto", sans-serif;
 .ourteam-maintext {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.17;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
 .maintextheader-features {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
 }
 
 .maintextheader-team {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -56,7 +56,7 @@ body { font-family: "Roboto", sans-serif;
 
 .maintext-team {
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--grey-text-color);
 }
@@ -92,7 +92,7 @@ body { font-family: "Roboto", sans-serif;
     color: var(--logo-color);
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -165,7 +165,7 @@ body { font-family: "Roboto", sans-serif;
     color: var(--light-text-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
+    line-height: 1.4;
     letter-spacing: 0.06em;
 }
 
@@ -187,7 +187,6 @@ body { font-family: "Roboto", sans-serif;
 }
 
 .button {
-    display: inline block;
     font-family: inherit;
     border: hidden;
     cursor: pointer;
@@ -198,7 +197,7 @@ body { font-family: "Roboto", sans-serif;
     background-color: var(--accent-text-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.9;
     display: flex;
     align-items: center;
     text-align: center;
@@ -214,7 +213,7 @@ body { font-family: "Roboto", sans-serif;
 .button.secondary {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -240,7 +239,7 @@ body { font-family: "Roboto", sans-serif;
     color: var(--light-text-color);
     font-style: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
@@ -251,7 +250,7 @@ body { font-family: "Roboto", sans-serif;
     color:rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
